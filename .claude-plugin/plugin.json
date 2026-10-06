@@ -12,5 +12,6 @@
     "voice",
     "clarity"
   ],
-  "displayName": "Humanize Output"
+  "displayName": "Humanize Output",
+  "icon": "./icon.png"
 }
