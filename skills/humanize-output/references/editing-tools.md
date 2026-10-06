@@ -2,14 +2,14 @@
 
 ## Commands
 
-- Replace `<plugin>` with the installed plugin folder.
+- Replace `<skill-dir>` with this installed skill folder.
 - Use `--data-dir` before the command to select another profile storage location.
 
 ```text
-python3 <plugin>/scripts/deslop.py [--data-dir <directory>] profile-save --input <profile.json>
-python3 <plugin>/scripts/deslop.py [--data-dir <directory>] profile-get --id <profile_id>
-python3 <plugin>/scripts/deslop.py [--data-dir <directory>] scan --draft <draft.txt> [--profile <profile_id>]
-python3 <plugin>/scripts/deslop.py apply --draft <draft.txt> --edits <edits.json> --output <revised.txt>
+python3 <skill-dir>/scripts/deslop.py [--data-dir <directory>] profile-save --input <profile.json>
+python3 <skill-dir>/scripts/deslop.py [--data-dir <directory>] profile-get --id <profile_id>
+python3 <skill-dir>/scripts/deslop.py [--data-dir <directory>] scan --draft <draft.txt> [--profile <profile_id>]
+python3 <skill-dir>/scripts/deslop.py apply --draft <draft.txt> --edits <edits.json> --output <revised.txt>
 ```
 
 ## Saved checklist

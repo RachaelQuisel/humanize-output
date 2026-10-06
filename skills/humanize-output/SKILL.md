@@ -9,7 +9,7 @@ description: Improve an existing draft through a short conversation. Ask about t
 
 - Start when the user invokes this skill or asks to improve an existing draft.
 - Use Claude Code with Python 3.10 or later.
-- Resolve the bundled tool from this installed skill directory at `../../scripts/deslop.py`. Do not use a developer's absolute path.
+- Resolve the bundled tool from this installed skill directory at `scripts/deslop.py`. Do not use a developer's absolute path.
 - Use plain English for questions, explanations, and revised copy. Keep sentences short. Preserve the requested format and exact names. Do not use metaphors, em dashes, or unexplained shortened terms.
 - Keep replies focused on the next action. Omit introductions, previews of the process, thanks, “Got it,” recaps, and closing summaries. Do not repeat the draft or known preferences during setup.
 
