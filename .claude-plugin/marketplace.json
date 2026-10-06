@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "humanize-output",
+  "description": "Improve existing copy through a short conversation. Choose the reader, tone, and editing depth. Review suggestions before applying changes.",
+  "owner": {
+    "name": "Rachael Quisel"
+  },
+  "plugins": [
+    {
+      "name": "humanize-output",
+      "source": "./",
+      "description": "Improve existing copy through a short conversation. Choose the reader, tone, and editing depth. Review suggestions before applying changes.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rachael Quisel"
+      },
+      "license": "MIT",
+      "keywords": [
+        "writing",
+        "editing",
+        "voice",
+        "clarity"
+      ],
+      "displayName": "Humanize Output"
+    }
+  ]
+}
