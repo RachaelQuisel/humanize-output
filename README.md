@@ -7,8 +7,15 @@ Improve the copy you already have through a short conversation. Choose the reade
 ## Start
 
 - Use Claude Code with Python 3.10 or later.
+- Install from this repository:
+
+```text
+claude plugin marketplace add RachaelQuisel/humanize-output
+claude plugin install humanize-output@humanize-output
+```
+
 - Run `/humanize-output:humanize-output`. Paste a draft or select a text file.
-- For local development, load the folder with `claude --plugin-dir ./plugins/humanize-output`.
+- For local development, load this folder with `claude --plugin-dir .`.
 - This release's executable workflow has not been verified in chat or cloud Cowork.
 
 ## Questions and review
@@ -69,6 +76,7 @@ Read [how it works](scripts/2026-10-03-humanize-output-how-it-works.md) for the 
 
 ## Development and license
 
-- Validate with `claude plugin validate ./plugins/humanize-output`.
-- Run checks with `python3 -m unittest discover -s plugins/humanize-output/tests`.
+- Validate the plugin manifest with `claude plugin validate .claude-plugin/plugin.json`.
+- Validate the marketplace with `claude plugin validate .claude-plugin/marketplace.json`.
+- Run checks with `python3 -m unittest discover -s tests`.
 - The MIT license covers the original plugin code and instructions. Users retain responsibility for their writing and third-party material.
