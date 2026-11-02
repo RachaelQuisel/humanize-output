@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "repository": "RachaelQuisel/humanize-output",
+  "packages": [
+    {
+      "name": "humanize-output",
+      "root": ".",
+      "version": "1.0.3",
+      "manifests": [
+        "plugin.json",
+        ".claude-plugin/plugin.json",
+        ".codex-plugin/plugin.json"
+      ],
+      "skills": [
+        "skills/humanize-output/SKILL.md"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "path": "skills/humanize-output/SKILL.md",
+      "version": "1.0.3",
+      "sha256": "3b81adb017d729220e37fc610f4b843a84b3d073ec3dfec048dea78219c38b4d",
+      "source": "skills/humanize-output/SKILL.md",
+      "guide": "skills/humanize-output/README.md"
+    }
+  ],
+  "copies": []
+}
