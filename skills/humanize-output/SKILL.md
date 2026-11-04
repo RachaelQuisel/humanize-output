@@ -1,6 +1,6 @@
 ---
 name: humanize-output
-version: 1.0.3
+version: 1.0.4
 description: Improve an existing draft through a short conversation. Ask about the reader, tone, and editing depth. Reuse answers already provided. Suggest changes for review. Apply only accepted edits.
 ---
 

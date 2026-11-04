@@ -10,7 +10,7 @@
       "name": "humanize-output",
       "source": "./",
       "description": "Improve existing copy through a short conversation. Choose the reader, tone, and editing depth. Review suggestions before applying changes.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Rachael Quisel"
       },

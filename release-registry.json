@@ -5,7 +5,7 @@
     {
       "name": "humanize-output",
       "root": ".",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "manifests": [
         "plugin.json",
         ".claude-plugin/plugin.json",
@@ -19,8 +19,8 @@
   "skills": [
     {
       "path": "skills/humanize-output/SKILL.md",
-      "version": "1.0.3",
-      "sha256": "3b81adb017d729220e37fc610f4b843a84b3d073ec3dfec048dea78219c38b4d",
+      "version": "1.0.4",
+      "sha256": "b2689a4659f53832460920d01af67db3103fdd23f5bd9e1ab28a5b4d0f225ba5",
       "source": "skills/humanize-output/SKILL.md",
       "guide": "skills/humanize-output/README.md"
     }
